@@ -1,0 +1,18 @@
+{
+  "name": "boombayah",
+  "version": "1.0.0",
+  "description": "Lambda back-end for performing team2gather slack-plugin back-end services functionally",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "pulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/team2gather/boombayah.git"
+  },
+  "author": "",
+  "license": "MIT"
+}
