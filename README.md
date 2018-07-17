@@ -10,6 +10,18 @@ Back-end service for the slack-plugin. Runs on node, to be built with purescript
 npm install -g purescript bower pulp
 ```
 
+- install dependencies
+
+```zsh
+npm install && bower install
+```
+
+- See if it works
+
+```zsh
+pulp run
+```
+
 # TODOs
 
 Obviously, this is an early work-in-progress, so there will be plenty to do
