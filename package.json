@@ -7,12 +7,21 @@
     "test": "test"
   },
   "scripts": {
-    "test": "pulp test"
+    "test": "pulp test",
+    "build": "pulp browserify --skip-entry-point",
+    "clean": "rm -rf output"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com/team2gather/boombayah.git"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.4",
+    "find-up": "^3.0.0",
+    "pkg-up": "^2.0.0",
+    "pulp": "^12.3.0",
+    "rollup": "^0.63.2"
+  }
 }
